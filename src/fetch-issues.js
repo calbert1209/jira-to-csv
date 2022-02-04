@@ -9,6 +9,7 @@ const createBody = (sprint, team) => {
     maxResults: 50,
     fieldsByKeys: false,
     fields: [
+      "customfield_10014",
       "customfield_10020",
       "issuetype",
       "assignee",
@@ -77,4 +78,4 @@ const fetch = (body, options) => {
 
 module.exports = {
   fetchIssues
-}
+};
