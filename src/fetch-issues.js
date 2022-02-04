@@ -42,10 +42,11 @@ const createFetchOptions = (authToken) => {
   }
 }
 
-const fetchIssues = (sprint, team, authToken) => {
+const fetchIssues = async (sprint, team, authToken) => {
   const body = createBody(sprint, team);
   const options = createFetchOptions(authToken);
-  return fetch(body, options);
+  const resp = await fetch(body, options);
+  return resp.issues;
 }
 
 const fetch = (body, options) => {
