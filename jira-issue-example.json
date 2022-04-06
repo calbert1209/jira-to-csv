@@ -1,0 +1,1071 @@
+{
+  "expand": "schema,names",
+  "startAt": 0,
+  "maxResults": 2,
+  "total": 22,
+  "issues": [
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+      "id": "13706",
+      "self": "https://shippio.atlassian.net/rest/api/3/issue/13706",
+      "key": "SHIPPIO2-3310",
+      "fields": {
+        "statuscategorychangedate": "2022-01-28T13:53:23.206+0900",
+        "issuetype": {
+          "self": "https://shippio.atlassian.net/rest/api/3/issuetype/10002",
+          "id": "10002",
+          "description": "A small, distinct piece of work.",
+          "iconUrl": "https://shippio.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "name": "Task",
+          "subtask": false,
+          "avatarId": 10318,
+          "hierarchyLevel": 0
+        },
+        "parent": {
+          "id": "11007",
+          "key": "SHIPPIO2-752",
+          "self": "https://shippio.atlassian.net/rest/api/3/issue/11007",
+          "fields": {
+            "summary": "[FO][BO] Bucket for General Improvements",
+            "status": {
+              "self": "https://shippio.atlassian.net/rest/api/3/status/10000",
+              "description": "",
+              "iconUrl": "https://shippio.atlassian.net/",
+              "name": "Backlog",
+              "id": "10000",
+              "statusCategory": {
+                "self": "https://shippio.atlassian.net/rest/api/3/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "To Do"
+              }
+            },
+            "priority": {
+              "self": "https://shippio.atlassian.net/rest/api/3/priority/3",
+              "iconUrl": "https://shippio.atlassian.net/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://shippio.atlassian.net/rest/api/3/issuetype/10000",
+              "id": "10000",
+              "description": "A big user story that needs to be broken down. Created by Jira Software - do not edit or delete.",
+              "iconUrl": "https://shippio.atlassian.net/images/icons/issuetypes/epic.svg",
+              "name": "Epic",
+              "subtask": false,
+              "hierarchyLevel": 1
+            }
+          }
+        },
+        "timespent": null,
+        "project": {
+          "self": "https://shippio.atlassian.net/rest/api/3/project/10000",
+          "id": "10000",
+          "key": "SHIPPIO2",
+          "name": "Shippio 2.0",
+          "projectTypeKey": "software",
+          "simplified": false,
+          "avatarUrls": {
+            "48x48": "https://shippio.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10551",
+            "24x24": "https://shippio.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10551?size=small",
+            "16x16": "https://shippio.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10551?size=xsmall",
+            "32x32": "https://shippio.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10551?size=medium"
+          }
+        },
+        "customfield_10032": null,
+        "customfield_10033": null,
+        "fixVersions": [],
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "customfield_10035": null,
+        "resolution": {
+          "self": "https://shippio.atlassian.net/rest/api/3/resolution/10000",
+          "id": "10000",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_10036": null,
+        "customfield_10037": [],
+        "customfield_10027": "2022-01-26",
+        "customfield_10028": "2022-01-28",
+        "resolutiondate": "2022-01-28T13:53:23.201+0900",
+        "workratio": -1,
+        "lastViewed": "2022-02-01T16:49:41.981+0900",
+        "watches": {
+          "self": "https://shippio.atlassian.net/rest/api/3/issue/SHIPPIO2-3310/watchers",
+          "watchCount": 2,
+          "isWatching": false
+        },
+        "issuerestriction": {
+          "issuerestrictions": {},
+          "shouldDisplay": false
+        },
+        "created": "2022-01-26T22:05:05.595+0900",
+        "customfield_10020": [
+          {
+            "id": 142,
+            "name": "Sprint 65 - SCO",
+            "state": "closed",
+            "boardId": 3,
+            "goal": "",
+            "startDate": "2022-01-14T08:10:21.072Z",
+            "endDate": "2022-01-28T14:38:00.000Z",
+            "completeDate": "2022-01-28T09:03:26.675Z"
+          }
+        ],
+        "customfield_10021": null,
+        "customfield_10022": "2022-01-28T13:53:13.828+0900",
+        "priority": {
+          "self": "https://shippio.atlassian.net/rest/api/3/priority/3",
+          "iconUrl": "https://shippio.atlassian.net/images/icons/priorities/medium.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": "10000_*:*_1_*:*_311144_*|*_10002_*:*_1_*:*_0_*|*_10004_*:*_1_*:*_13227679_*|*_10003_*:*_1_*:*_129758807",
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "PLUGIN_LICENSE_ERROR",
+            "message": "The Parent Link is only available to Jira Premium users."
+          }
+        },
+        "customfield_10019": "1|i009rl:",
+        "aggregatetimeoriginalestimate": null,
+        "timeestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": {
+          "self": "https://shippio.atlassian.net/rest/api/3/user?accountId=61bc0e132c7338006902632d",
+          "accountId": "61bc0e132c7338006902632d",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/dfe380bb36000ec312187d5a1191357f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FK-0.png",
+            "24x24": "https://secure.gravatar.com/avatar/dfe380bb36000ec312187d5a1191357f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FK-0.png",
+            "16x16": "https://secure.gravatar.com/avatar/dfe380bb36000ec312187d5a1191357f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FK-0.png",
+            "32x32": "https://secure.gravatar.com/avatar/dfe380bb36000ec312187d5a1191357f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FK-0.png"
+          },
+          "displayName": "koichi.kamata",
+          "active": true,
+          "timeZone": "Asia/Tokyo",
+          "accountType": "atlassian"
+        },
+        "updated": "2022-01-28T13:53:23.206+0900",
+        "status": {
+          "self": "https://shippio.atlassian.net/rest/api/3/status/10002",
+          "description": "",
+          "iconUrl": "https://shippio.atlassian.net/",
+          "name": "Done",
+          "id": "10002",
+          "statusCategory": {
+            "self": "https://shippio.atlassian.net/rest/api/3/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": {
+          "version": 1,
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Previous → Saving a Company saves the teams, places, and shipments but did not save the tracking data for a shipment. "
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "type": "text",
+                  "text": "Update → Shipment Tracking data is also saved and can be reloaded. ( /demo save ABC in slack )"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "type": "text",
+                  "text": "To test, "
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "type": "text",
+                  "text": "1) add the tracking data for a shipment so it can be displayed on a map. "
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "type": "text",
+                  "text": "2) Save the company. "
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "type": "text",
+                  "text": "3) Add/Change/Delete tracking information"
+                },
+                {
+                  "type": "hardBreak"
+                },
+                {
+                  "type": "text",
+                  "text": "4) Reload and confirm that it has the same data from step (2) "
+                }
+              ]
+            }
+          ]
+        },
+        "customfield_10010": null,
+        "customfield_10014": "SHIPPIO2-752",
+        "timetracking": {},
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "attachment": [],
+        "summary": "[QA] Shipment Tracking save/reload from slack",
+        "creator": {
+          "self": "https://shippio.atlassian.net/rest/api/3/user?accountId=5e9fcfd0ca2a1d0c2e3b1c04",
+          "accountId": "5e9fcfd0ca2a1d0c2e3b1c04",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/b6cd3cb6b819bc47a28613d5593fcd44?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDW-6.png",
+            "24x24": "https://secure.gravatar.com/avatar/b6cd3cb6b819bc47a28613d5593fcd44?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDW-6.png",
+            "16x16": "https://secure.gravatar.com/avatar/b6cd3cb6b819bc47a28613d5593fcd44?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDW-6.png",
+            "32x32": "https://secure.gravatar.com/avatar/b6cd3cb6b819bc47a28613d5593fcd44?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDW-6.png"
+          },
+          "displayName": "Dillon Wyatt",
+          "active": true,
+          "timeZone": "Asia/Tokyo",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://shippio.atlassian.net/rest/api/3/user?accountId=5e9fcfd0ca2a1d0c2e3b1c04",
+          "accountId": "5e9fcfd0ca2a1d0c2e3b1c04",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/b6cd3cb6b819bc47a28613d5593fcd44?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDW-6.png",
+            "24x24": "https://secure.gravatar.com/avatar/b6cd3cb6b819bc47a28613d5593fcd44?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDW-6.png",
+            "16x16": "https://secure.gravatar.com/avatar/b6cd3cb6b819bc47a28613d5593fcd44?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDW-6.png",
+            "32x32": "https://secure.gravatar.com/avatar/b6cd3cb6b819bc47a28613d5593fcd44?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDW-6.png"
+          },
+          "displayName": "Dillon Wyatt",
+          "active": true,
+          "timeZone": "Asia/Tokyo",
+          "accountType": "atlassian"
+        },
+        "customfield_10000": "{}",
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": null,
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://shippio.atlassian.net/rest/api/3/issue/SHIPPIO2-3310/votes",
+          "votes": 0,
+          "hasVoted": false
+        },
+        "comment": {
+          "comments": [
+            {
+              "self": "https://shippio.atlassian.net/rest/api/3/issue/13706/comment/11623",
+              "id": "11623",
+              "author": {
+                "self": "https://shippio.atlassian.net/rest/api/3/user?accountId=61bc0e132c7338006902632d",
+                "accountId": "61bc0e132c7338006902632d",
+                "avatarUrls": {
+                  "48x48": "https://secure.gravatar.com/avatar/dfe380bb36000ec312187d5a1191357f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FK-0.png",
+                  "24x24": "https://secure.gravatar.com/avatar/dfe380bb36000ec312187d5a1191357f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FK-0.png",
+                  "16x16": "https://secure.gravatar.com/avatar/dfe380bb36000ec312187d5a1191357f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FK-0.png",
+                  "32x32": "https://secure.gravatar.com/avatar/dfe380bb36000ec312187d5a1191357f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FK-0.png"
+                },
+                "displayName": "koichi.kamata",
+                "active": true,
+                "timeZone": "Asia/Tokyo",
+                "accountType": "atlassian"
+              },
+              "body": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "QA : LGTM"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "inlineCard",
+                        "attrs": {
+                          "url": "https://docs.google.com/spreadsheets/d/1dG1ys7eQ1qZkFSyi-UnvXGXkZrbNb0xoRPb87czpaIo/edit#gid=947546781&range=A16:D16"
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "text": " "
+                      }
+                    ]
+                  }
+                ]
+              },
+              "updateAuthor": {
+                "self": "https://shippio.atlassian.net/rest/api/3/user?accountId=61bc0e132c7338006902632d",
+                "accountId": "61bc0e132c7338006902632d",
+                "avatarUrls": {
+                  "48x48": "https://secure.gravatar.com/avatar/dfe380bb36000ec312187d5a1191357f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FK-0.png",
+                  "24x24": "https://secure.gravatar.com/avatar/dfe380bb36000ec312187d5a1191357f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FK-0.png",
+                  "16x16": "https://secure.gravatar.com/avatar/dfe380bb36000ec312187d5a1191357f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FK-0.png",
+                  "32x32": "https://secure.gravatar.com/avatar/dfe380bb36000ec312187d5a1191357f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FK-0.png"
+                },
+                "displayName": "koichi.kamata",
+                "active": true,
+                "timeZone": "Asia/Tokyo",
+                "accountType": "atlassian"
+              },
+              "created": "2022-01-28T13:53:13.828+0900",
+              "updated": "2022-01-28T13:53:13.828+0900",
+              "jsdPublic": true
+            }
+          ],
+          "self": "https://shippio.atlassian.net/rest/api/3/issue/13706/comment",
+          "maxResults": 1,
+          "total": 1,
+          "startAt": 0
+        },
+        "worklog": {
+          "startAt": 0,
+          "maxResults": 20,
+          "total": 0,
+          "worklogs": []
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+      "id": "13704",
+      "self": "https://shippio.atlassian.net/rest/api/3/issue/13704",
+      "key": "SHIPPIO2-3308",
+      "fields": {
+        "statuscategorychangedate": "2022-01-27T15:16:30.350+0900",
+        "issuetype": {
+          "self": "https://shippio.atlassian.net/rest/api/3/issuetype/10002",
+          "id": "10002",
+          "description": "A small, distinct piece of work.",
+          "iconUrl": "https://shippio.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "name": "Task",
+          "subtask": false,
+          "avatarId": 10318,
+          "hierarchyLevel": 0
+        },
+        "parent": {
+          "id": "13644",
+          "key": "SHIPPIO2-3248",
+          "self": "https://shippio.atlassian.net/rest/api/3/issue/13644",
+          "fields": {
+            "summary": "[BO] [slack notification] Dedicated URL for all Chat types (BO)",
+            "status": {
+              "self": "https://shippio.atlassian.net/rest/api/3/status/10000",
+              "description": "",
+              "iconUrl": "https://shippio.atlassian.net/",
+              "name": "Backlog",
+              "id": "10000",
+              "statusCategory": {
+                "self": "https://shippio.atlassian.net/rest/api/3/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "To Do"
+              }
+            },
+            "priority": {
+              "self": "https://shippio.atlassian.net/rest/api/3/priority/3",
+              "iconUrl": "https://shippio.atlassian.net/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://shippio.atlassian.net/rest/api/3/issuetype/10000",
+              "id": "10000",
+              "description": "A big user story that needs to be broken down. Created by Jira Software - do not edit or delete.",
+              "iconUrl": "https://shippio.atlassian.net/images/icons/issuetypes/epic.svg",
+              "name": "Epic",
+              "subtask": false,
+              "hierarchyLevel": 1
+            }
+          }
+        },
+        "timespent": null,
+        "project": {
+          "self": "https://shippio.atlassian.net/rest/api/3/project/10000",
+          "id": "10000",
+          "key": "SHIPPIO2",
+          "name": "Shippio 2.0",
+          "projectTypeKey": "software",
+          "simplified": false,
+          "avatarUrls": {
+            "48x48": "https://shippio.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10551",
+            "24x24": "https://shippio.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10551?size=small",
+            "16x16": "https://shippio.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10551?size=xsmall",
+            "32x32": "https://shippio.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10551?size=medium"
+          }
+        },
+        "customfield_10032": null,
+        "customfield_10033": null,
+        "fixVersions": [],
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "resolution": {
+          "self": "https://shippio.atlassian.net/rest/api/3/resolution/10000",
+          "id": "10000",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_10035": null,
+        "customfield_10036": null,
+        "customfield_10037": [],
+        "customfield_10027": "2022-01-27",
+        "customfield_10028": null,
+        "resolutiondate": "2022-01-27T15:16:30.345+0900",
+        "workratio": -1,
+        "watches": {
+          "self": "https://shippio.atlassian.net/rest/api/3/issue/SHIPPIO2-3308/watchers",
+          "watchCount": 1,
+          "isWatching": false
+        },
+        "issuerestriction": {
+          "issuerestrictions": {},
+          "shouldDisplay": false
+        },
+        "lastViewed": null,
+        "created": "2022-01-26T17:37:31.249+0900",
+        "customfield_10020": [
+          {
+            "id": 142,
+            "name": "Sprint 65 - SCO",
+            "state": "closed",
+            "boardId": 3,
+            "goal": "",
+            "startDate": "2022-01-14T08:10:21.072Z",
+            "endDate": "2022-01-28T14:38:00.000Z",
+            "completeDate": "2022-01-28T09:03:26.675Z"
+          }
+        ],
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://shippio.atlassian.net/rest/api/3/priority/3",
+          "iconUrl": "https://shippio.atlassian.net/images/icons/priorities/medium.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": "10000_*:*_1_*:*_56664710_*|*_10002_*:*_1_*:*_0_*|*_10004_*:*_1_*:*_21274412",
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "PLUGIN_LICENSE_ERROR",
+            "message": "The Parent Link is only available to Jira Premium users."
+          }
+        },
+        "customfield_10019": "1|i009r5:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [
+          {
+            "id": "17964",
+            "self": "https://shippio.atlassian.net/rest/api/3/issueLink/17964",
+            "type": {
+              "id": "10000",
+              "name": "Blocks",
+              "inward": "is blocked by",
+              "outward": "blocks",
+              "self": "https://shippio.atlassian.net/rest/api/3/issueLinkType/10000"
+            },
+            "inwardIssue": {
+              "id": "13646",
+              "key": "SHIPPIO2-3250",
+              "self": "https://shippio.atlassian.net/rest/api/3/issue/13646",
+              "fields": {
+                "summary": "[BO] Shipment Details Chat",
+                "status": {
+                  "self": "https://shippio.atlassian.net/rest/api/3/status/10002",
+                  "description": "",
+                  "iconUrl": "https://shippio.atlassian.net/",
+                  "name": "Done",
+                  "id": "10002",
+                  "statusCategory": {
+                    "self": "https://shippio.atlassian.net/rest/api/3/statuscategory/3",
+                    "id": 3,
+                    "key": "done",
+                    "colorName": "green",
+                    "name": "Done"
+                  }
+                },
+                "priority": {
+                  "self": "https://shippio.atlassian.net/rest/api/3/priority/3",
+                  "iconUrl": "https://shippio.atlassian.net/images/icons/priorities/medium.svg",
+                  "name": "Medium",
+                  "id": "3"
+                },
+                "issuetype": {
+                  "self": "https://shippio.atlassian.net/rest/api/3/issuetype/10001",
+                  "id": "10001",
+                  "description": "Functionality or a feature expressed as a user goal.",
+                  "iconUrl": "https://shippio.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium",
+                  "name": "Story",
+                  "subtask": false,
+                  "avatarId": 10315,
+                  "hierarchyLevel": 0
+                }
+              }
+            }
+          }
+        ],
+        "assignee": {
+          "self": "https://shippio.atlassian.net/rest/api/3/user?accountId=613ecdcdc2fda2006a55f50b",
+          "accountId": "613ecdcdc2fda2006a55f50b",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/613ecdcdc2fda2006a55f50b/ce10cabd-a9b9-4100-bd2f-7a6cba0c0037/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/613ecdcdc2fda2006a55f50b/ce10cabd-a9b9-4100-bd2f-7a6cba0c0037/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/613ecdcdc2fda2006a55f50b/ce10cabd-a9b9-4100-bd2f-7a6cba0c0037/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/613ecdcdc2fda2006a55f50b/ce10cabd-a9b9-4100-bd2f-7a6cba0c0037/32"
+          },
+          "displayName": "Yuki Okabe",
+          "active": true,
+          "timeZone": "Asia/Tokyo",
+          "accountType": "atlassian"
+        },
+        "updated": "2022-01-27T15:16:30.350+0900",
+        "status": {
+          "self": "https://shippio.atlassian.net/rest/api/3/status/10002",
+          "description": "",
+          "iconUrl": "https://shippio.atlassian.net/",
+          "name": "Done",
+          "id": "10002",
+          "statusCategory": {
+            "self": "https://shippio.atlassian.net/rest/api/3/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": "SHIPPIO2-3248",
+        "timetracking": {},
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "customfield_10007": null,
+        "security": null,
+        "customfield_10008": null,
+        "attachment": [],
+        "aggregatetimeestimate": null,
+        "customfield_10009": null,
+        "summary": "[QA][BO] Shipment Details Chat",
+        "creator": {
+          "self": "https://shippio.atlassian.net/rest/api/3/user?accountId=613ecdcdc2fda2006a55f50b",
+          "accountId": "613ecdcdc2fda2006a55f50b",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/613ecdcdc2fda2006a55f50b/ce10cabd-a9b9-4100-bd2f-7a6cba0c0037/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/613ecdcdc2fda2006a55f50b/ce10cabd-a9b9-4100-bd2f-7a6cba0c0037/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/613ecdcdc2fda2006a55f50b/ce10cabd-a9b9-4100-bd2f-7a6cba0c0037/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/613ecdcdc2fda2006a55f50b/ce10cabd-a9b9-4100-bd2f-7a6cba0c0037/32"
+          },
+          "displayName": "Yuki Okabe",
+          "active": true,
+          "timeZone": "Asia/Tokyo",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://shippio.atlassian.net/rest/api/3/user?accountId=613ecdcdc2fda2006a55f50b",
+          "accountId": "613ecdcdc2fda2006a55f50b",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/613ecdcdc2fda2006a55f50b/ce10cabd-a9b9-4100-bd2f-7a6cba0c0037/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/613ecdcdc2fda2006a55f50b/ce10cabd-a9b9-4100-bd2f-7a6cba0c0037/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/613ecdcdc2fda2006a55f50b/ce10cabd-a9b9-4100-bd2f-7a6cba0c0037/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/613ecdcdc2fda2006a55f50b/ce10cabd-a9b9-4100-bd2f-7a6cba0c0037/32"
+          },
+          "displayName": "Yuki Okabe",
+          "active": true,
+          "timeZone": "Asia/Tokyo",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10000": "{}",
+        "customfield_10001": null,
+        "customfield_10002": null,
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "comment": {
+          "comments": [],
+          "self": "https://shippio.atlassian.net/rest/api/3/issue/13704/comment",
+          "maxResults": 0,
+          "total": 0,
+          "startAt": 0
+        },
+        "votes": {
+          "self": "https://shippio.atlassian.net/rest/api/3/issue/SHIPPIO2-3308/votes",
+          "votes": 0,
+          "hasVoted": false
+        },
+        "worklog": {
+          "startAt": 0,
+          "maxResults": 20,
+          "total": 0,
+          "worklogs": []
+        }
+      }
+    }
+  ],
+  "names": {
+    "statuscategorychangedate": "Status Category Changed",
+    "parent": "Parent",
+    "issuetype": "Issue Type",
+    "timespent": "Time Spent",
+    "project": "Project",
+    "customfield_10032": "End date",
+    "customfield_10033": "Baseline start date",
+    "fixVersions": "Fix versions",
+    "customfield_10034": "Baseline end date",
+    "aggregatetimespent": "Σ Time Spent",
+    "customfield_10035": "Task progress",
+    "resolution": "Resolution",
+    "customfield_10036": "Productboard URL",
+    "customfield_10037": "Request participants",
+    "customfield_10027": "Target start",
+    "customfield_10028": "Target end",
+    "resolutiondate": "Resolved",
+    "workratio": "Work Ratio",
+    "lastViewed": "Last Viewed",
+    "watches": "Watchers",
+    "issuerestriction": "Restrict to",
+    "created": "Created",
+    "customfield_10020": "Sprint",
+    "customfield_10021": "Flagged",
+    "customfield_10022": "[CHART] Date of First Response",
+    "priority": "Priority",
+    "customfield_10023": "[CHART] Time in Status",
+    "labels": "Labels",
+    "customfield_10016": "Story point estimate",
+    "customfield_10017": "Issue color",
+    "customfield_10018": "Parent Link",
+    "customfield_10019": "Rank",
+    "aggregatetimeoriginalestimate": "Σ Original Estimate",
+    "timeestimate": "Remaining Estimate",
+    "versions": "Affects versions",
+    "issuelinks": "Linked Issues",
+    "assignee": "Assignee",
+    "updated": "Updated",
+    "status": "Status",
+    "components": "Components",
+    "timeoriginalestimate": "Original estimate",
+    "description": "Description",
+    "customfield_10010": "Request Type",
+    "customfield_10014": "Epic Link",
+    "timetracking": "Time tracking",
+    "customfield_10015": "Start date",
+    "customfield_10005": "Change type",
+    "customfield_10006": "Change risk",
+    "security": "Security Level",
+    "customfield_10007": "Change reason",
+    "customfield_10008": "Change start date",
+    "customfield_10009": "Change completion date",
+    "aggregatetimeestimate": "Σ Remaining Estimate",
+    "attachment": "Attachment",
+    "summary": "Summary",
+    "creator": "Creator",
+    "subtasks": "Sub-tasks",
+    "reporter": "Reporter",
+    "customfield_10000": "Development",
+    "aggregateprogress": "Σ Progress",
+    "customfield_10001": "Team",
+    "customfield_10002": "Organizations",
+    "customfield_10003": "Approvers",
+    "customfield_10004": "Impact",
+    "environment": "Environment",
+    "duedate": "Due date",
+    "progress": "Progress",
+    "votes": "Votes",
+    "comment": "Comment",
+    "worklog": "Log Work"
+  },
+  "schema": {
+    "statuscategorychangedate": {
+      "type": "datetime",
+      "system": "statuscategorychangedate"
+    },
+    "parent": {
+      "type": "array",
+      "items": "issuelinks",
+      "system": "parent"
+    },
+    "issuetype": {
+      "type": "issuetype",
+      "system": "issuetype"
+    },
+    "timespent": {
+      "type": "number",
+      "system": "timespent"
+    },
+    "project": {
+      "type": "project",
+      "system": "project"
+    },
+    "customfield_10032": {
+      "type": "date",
+      "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker",
+      "customId": 10032
+    },
+    "customfield_10033": {
+      "type": "date",
+      "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker",
+      "customId": 10033
+    },
+    "fixVersions": {
+      "type": "array",
+      "items": "version",
+      "system": "fixVersions"
+    },
+    "customfield_10034": {
+      "type": "date",
+      "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker",
+      "customId": 10034
+    },
+    "aggregatetimespent": {
+      "type": "number",
+      "system": "aggregatetimespent"
+    },
+    "customfield_10035": {
+      "type": "number",
+      "custom": "com.atlassian.jira.plugin.system.customfieldtypes:float",
+      "customId": 10035
+    },
+    "resolution": {
+      "type": "resolution",
+      "system": "resolution"
+    },
+    "customfield_10036": {
+      "type": "string",
+      "custom": "com.atlassian.jira.plugin.system.customfieldtypes:url",
+      "customId": 10036
+    },
+    "customfield_10037": {
+      "type": "array",
+      "items": "user",
+      "custom": "com.atlassian.servicedesk:sd-request-participants",
+      "customId": 10037
+    },
+    "customfield_10027": {
+      "type": "date",
+      "custom": "com.atlassian.jpo:jpo-custom-field-baseline-start",
+      "customId": 10027
+    },
+    "customfield_10028": {
+      "type": "date",
+      "custom": "com.atlassian.jpo:jpo-custom-field-baseline-end",
+      "customId": 10028
+    },
+    "resolutiondate": {
+      "type": "datetime",
+      "system": "resolutiondate"
+    },
+    "workratio": {
+      "type": "number",
+      "system": "workratio"
+    },
+    "lastViewed": {
+      "type": "datetime",
+      "system": "lastViewed"
+    },
+    "watches": {
+      "type": "watches",
+      "system": "watches"
+    },
+    "issuerestriction": {
+      "type": "issuerestriction",
+      "system": "issuerestriction"
+    },
+    "created": {
+      "type": "datetime",
+      "system": "created"
+    },
+    "customfield_10020": {
+      "type": "array",
+      "items": "json",
+      "custom": "com.pyxis.greenhopper.jira:gh-sprint",
+      "customId": 10020
+    },
+    "customfield_10021": {
+      "type": "array",
+      "items": "option",
+      "custom": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes",
+      "customId": 10021
+    },
+    "customfield_10022": {
+      "type": "datetime",
+      "custom": "com.atlassian.jira.ext.charting:firstresponsedate",
+      "customId": 10022
+    },
+    "priority": {
+      "type": "priority",
+      "system": "priority"
+    },
+    "customfield_10023": {
+      "type": "any",
+      "custom": "com.atlassian.jira.ext.charting:timeinstatus",
+      "customId": 10023
+    },
+    "labels": {
+      "type": "array",
+      "items": "string",
+      "system": "labels"
+    },
+    "customfield_10016": {
+      "type": "number",
+      "custom": "com.pyxis.greenhopper.jira:jsw-story-points",
+      "customId": 10016
+    },
+    "customfield_10017": {
+      "type": "string",
+      "custom": "com.pyxis.greenhopper.jira:jsw-issue-color",
+      "customId": 10017
+    },
+    "customfield_10018": {
+      "type": "any",
+      "custom": "com.atlassian.jpo:jpo-custom-field-parent",
+      "customId": 10018
+    },
+    "customfield_10019": {
+      "type": "any",
+      "custom": "com.pyxis.greenhopper.jira:gh-lexo-rank",
+      "customId": 10019
+    },
+    "aggregatetimeoriginalestimate": {
+      "type": "number",
+      "system": "aggregatetimeoriginalestimate"
+    },
+    "timeestimate": {
+      "type": "number",
+      "system": "timeestimate"
+    },
+    "versions": {
+      "type": "array",
+      "items": "version",
+      "system": "versions"
+    },
+    "issuelinks": {
+      "type": "array",
+      "items": "issuelinks",
+      "system": "issuelinks"
+    },
+    "assignee": {
+      "type": "user",
+      "system": "assignee"
+    },
+    "updated": {
+      "type": "datetime",
+      "system": "updated"
+    },
+    "status": {
+      "type": "status",
+      "system": "status"
+    },
+    "components": {
+      "type": "array",
+      "items": "component",
+      "system": "components"
+    },
+    "timeoriginalestimate": {
+      "type": "number",
+      "system": "timeoriginalestimate"
+    },
+    "description": {
+      "type": "string",
+      "system": "description"
+    },
+    "customfield_10010": {
+      "type": "sd-customerrequesttype",
+      "custom": "com.atlassian.servicedesk:vp-origin",
+      "customId": 10010
+    },
+    "customfield_10014": {
+      "type": "any",
+      "custom": "com.pyxis.greenhopper.jira:gh-epic-link",
+      "customId": 10014
+    },
+    "timetracking": {
+      "type": "timetracking",
+      "system": "timetracking"
+    },
+    "customfield_10015": {
+      "type": "date",
+      "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker",
+      "customId": 10015
+    },
+    "customfield_10005": {
+      "type": "option",
+      "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+      "customId": 10005
+    },
+    "customfield_10006": {
+      "type": "option",
+      "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+      "customId": 10006
+    },
+    "security": {
+      "type": "securitylevel",
+      "system": "security"
+    },
+    "customfield_10007": {
+      "type": "option",
+      "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+      "customId": 10007
+    },
+    "customfield_10008": {
+      "type": "datetime",
+      "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datetime",
+      "customId": 10008
+    },
+    "customfield_10009": {
+      "type": "datetime",
+      "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datetime",
+      "customId": 10009
+    },
+    "aggregatetimeestimate": {
+      "type": "number",
+      "system": "aggregatetimeestimate"
+    },
+    "attachment": {
+      "type": "array",
+      "items": "attachment",
+      "system": "attachment"
+    },
+    "summary": {
+      "type": "string",
+      "system": "summary"
+    },
+    "creator": {
+      "type": "user",
+      "system": "creator"
+    },
+    "subtasks": {
+      "type": "array",
+      "items": "issuelinks",
+      "system": "subtasks"
+    },
+    "reporter": {
+      "type": "user",
+      "system": "reporter"
+    },
+    "customfield_10000": {
+      "type": "any",
+      "custom": "com.atlassian.jira.plugins.jira-development-integration-plugin:devsummarycf",
+      "customId": 10000
+    },
+    "aggregateprogress": {
+      "type": "progress",
+      "system": "aggregateprogress"
+    },
+    "customfield_10001": {
+      "type": "any",
+      "custom": "com.atlassian.teams:rm-teams-custom-field-team",
+      "customId": 10001
+    },
+    "customfield_10002": {
+      "type": "array",
+      "items": "sd-customerorganization",
+      "custom": "com.atlassian.servicedesk:sd-customer-organizations",
+      "customId": 10002
+    },
+    "customfield_10003": {
+      "type": "array",
+      "items": "user",
+      "custom": "com.atlassian.jira.plugin.system.customfieldtypes:multiuserpicker",
+      "customId": 10003
+    },
+    "customfield_10004": {
+      "type": "option",
+      "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+      "customId": 10004
+    },
+    "environment": {
+      "type": "string",
+      "system": "environment"
+    },
+    "duedate": {
+      "type": "date",
+      "system": "duedate"
+    },
+    "progress": {
+      "type": "progress",
+      "system": "progress"
+    },
+    "votes": {
+      "type": "votes",
+      "system": "votes"
+    },
+    "comment": {
+      "type": "comments-page",
+      "system": "comment"
+    },
+    "worklog": {
+      "type": "array",
+      "items": "worklog",
+      "system": "worklog"
+    }
+  }
+}
